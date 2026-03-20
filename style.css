@@ -1,4 +1,72 @@
 
 h1 {
-  color:blue;
+  color:rgba(185, 57, 127, 0.685);
+}
+/*estilo general de la pagina*/
+body{
+  font_family:arial, helvetica, sans_senrif;
+  background_color:#a59d9d;
+  margin:0;
+  line_height:1_6;
+}
+/* Encabezado */
+header {
+    background-color: #b8e593;   
+    color: #e2baba;              
+    text-align: center;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #cf5980;   
+    text-align: center;
+    padding: 12px;
+}
+
+/* Enlaces del menú */
+nav a {
+    color: #69d693;              
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Efecto al pasar el mouse */
+nav a:hover {
+    color: #b2e652;              
+}
+
+/* Estilo general de la página */
+body {
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+    background-color: #dd9c9c;   
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Secciones */
+section {
+    background-color: #935dda;   
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(170, 159, 211, 0.1); 
+}
+
+/* Imágenes */
+img {
+    width: 400px;       
+    height: auto;       
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #55b8d6;   
+    color: #d66c86;              
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
 }
