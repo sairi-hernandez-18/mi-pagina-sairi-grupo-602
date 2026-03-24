@@ -1,9 +1,11 @@
 
-
+h1 {
+  color:rgba(185, 57, 127, 0.685);
+}
 /*estilo general de la pagina*/
 body{
   font-family:arial, helvetica, sans-serif;
-  background-color:#92cce7;
+  background-color:#77abc4;
   margin:0;
   line-height:1_6;
 }
@@ -44,12 +46,12 @@ body {
 
 /* Secciones */
 section {
-    background-color: #5ddabb;   
+    background-color: #aeeede;   
     margin: 20px auto;
     padding: 20px;
     width: 50%;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(170, 159, 211, 0.1); 
+    box-shadow: 0 4px 8px rgba(168, 161, 196, 0.1); 
 }
 
 /* Imágenes */
