@@ -9,14 +9,14 @@ header {
 
 /* Menú de navegación */
 nav {
-    background-color: #b67a8e;   
+    background-color: #bd6482;   
     text-align: center;
     padding: 12px;
 }
 
 /* Enlaces del menú */
 nav a {
-    color: #9dceb0;              
+    color: #d4f0df;              
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -24,25 +24,25 @@ nav a {
 
 /* Efecto al pasar el mouse */
 nav a:hover {
-    color: #9c77a5;              
+    color: #e0aaee;              
 }
 
 /* Estilo general de la página */
 body {
     font-family: 'Times New Roman', Helvetica, sans-serif;
-    background-color: #d18080;   
+    background-color: #ad8383;   
     margin: 0;
     line-height: 1.6;
 }
 
 /* Secciones */
 section {
-    background-color: #aeeede;   
+    background-color: #738daf;   
     margin: 20px auto;
     padding: 20px;
     width: 50%;
     border-radius: 8px;
-    box-shadow: 0 4px 8px #8c6bca; 
+    box-shadow: 0 4px 8px #9282b1; 
 }
 
 /* Imágenes */
@@ -55,8 +55,8 @@ img {
 
 /* Pie de página */
 footer {
-    background-color: #7dd0e9;   
-    color: #f3b8c7;              
+    background-color: #8fb2bd;   
+    color: #c594a1;              
     text-align: center;
     padding: 10px;
     margin-top: 20px;
