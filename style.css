@@ -1,12 +1,5 @@
 
 
-/*estilo general de la pagina*/
-body{
-  font-family:arial, helvetica, sans-serif;
-  background-color:#77abc4;
-  margin:0;
-  line-height:1_6;
-}
 /* Encabezado */
 header {
     background-color: #5494ad;   
