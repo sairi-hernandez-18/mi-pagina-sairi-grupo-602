@@ -2,8 +2,8 @@
 
 /* Encabezado */
 header {
-    background-color: #5494ad;   
-    color: #9ec1d8;              
+    background-color: #9de99b;   
+    color: #88d1d6;              
     text-align: center;
 }
 
@@ -37,12 +37,12 @@ body {
 
 /* Secciones */
 section {
-    background-color: #738daf;   
+    background-color: #50dbbd;   
     margin: 20px auto;
     padding: 20px;
     width: 50%;
     border-radius: 8px;
-    box-shadow: 0 4px 8px #9282b1; 
+    box-shadow: 0 4px 8px #d7c4fc; 
 }
 
 /* Imágenes */
@@ -55,8 +55,8 @@ img {
 
 /* Pie de página */
 footer {
-    background-color: #8fb2bd;   
-    color: #c594a1;              
+    background-color: #7ac7df;   
+    color: #fab1c4;              
     text-align: center;
     padding: 10px;
     margin-top: 20px;
