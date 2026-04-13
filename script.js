@@ -4,7 +4,7 @@ function mostrarmensaje () {
         mensaje.innerHTML="🐾 cuida y protege a los animales";
         mensaje.style.display="block";
 
-        setTimeout()=>{
+        setTimeout(1)=>{
             mensaje.style.opacity="1";
             mensaje.style.transform="translateY(0)";
         };50);
