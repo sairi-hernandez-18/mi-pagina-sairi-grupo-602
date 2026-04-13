@@ -82,6 +82,6 @@ button:active{
     transform:translateY(-10px);
     transition: all 0.5s ease;
     font-weight: bold;
-    color: #2ecc71;
+    color: #4085c5;
     margin-top: 10px;
 }
