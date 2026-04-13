@@ -1,7 +1,7 @@
 function mostrarmensaje () {
     let mensaje= document.getElementById("MENSAJE");
 
-        mensaje.innerHTML="🐾cuida y protege a los animales";
+        mensaje.innerHTML="🐾 cuida y protege a los animales";
         mensaje.style.display="block";
 
         setTimeout()=>{
