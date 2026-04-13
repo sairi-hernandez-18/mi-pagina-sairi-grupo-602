@@ -73,6 +73,15 @@ button{
     transition: transforma 0.15,background-color 0.35;
 }
 button:active{
-    transform: scale (0.95);
+    transform: scale(0.95);
     background-color: #d892df;
+}
+#mensaje{
+    display:none;
+    opacity: 0;
+    transform:translateY(-10px);
+    transition: all 0.5s ease;
+    font-weight: bold;
+    color: #2ecc71;
+    margin-top: 10px;
 }
