@@ -65,16 +65,16 @@ footer {
 button{
     padding:10px 20px;
     font-size: 16px;
-    background-color: #13b459;
-    color: rgb(91, 120, 216);
+    background-color: #365c88;
+    color: red;
     border:  none;
     border-radius:  8px;
     cursor: pointer;
-    transition: transforma 0.15,background-color 0.35;
+    transition: transform 0.15, background-color 0.35;
 }
 button:active{
     transform: scale(0.95);
-    background-color: #67af93;
+    background-color: #4bbbe7;
 }
 #mensaje{
     display:none;
