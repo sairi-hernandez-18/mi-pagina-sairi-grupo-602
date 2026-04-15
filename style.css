@@ -30,7 +30,7 @@ nav a:hover {
 /* Estilo general de la página */
 body {
     font-family: 'Times New Roman', Helvetica, sans-serif;
-    background-color: #ad8383;   
+    background-color: #6d4b4b;   
     margin: 0;
     line-height: 1.6;
 }
@@ -55,7 +55,7 @@ img {
 
 /* Pie de página */
 footer {
-    background-color: #640970;   
+    background-color: #db9ed1;   
     color: #221f20;              
     text-align: center;
     padding: 10px;
@@ -74,7 +74,7 @@ button{
 }
 button:active{
     transform: scale(0.95);
-    background-color: #d892df;
+    background-color: #d4add8;
 }
 #mensaje{
     display:none;
