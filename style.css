@@ -66,7 +66,7 @@ button{
     padding:10px 20px;
     font-size: 16px;
     background-color: #365c88;
-    color: red;
+    color: rgb(43, 25, 65);
     border:  none;
     border-radius:  8px;
     cursor: pointer;
@@ -83,6 +83,6 @@ button:active{
     transform:translateY(-10px);
     transition: all 0.5s ease;
     font-weight: bold;
-    color: #4085c5;
+    color: #8dbedf;
     margin-top: 10px;
 }
