@@ -14,7 +14,7 @@ function mostrarMensaje() {
 function mostrarMensaje() {
     let mensaje = document.getElementById("mensaje");
 
-        mensaje.innerHTML = "🐾 si tines mascostas tu dever es cuidar de ellos";
+        mensaje.innerHTML = "🐾 si tienes mascostas tu dever es cuidar de ellos";
         mensaje.style.display = "block";
 
         setTimeout(() => {
