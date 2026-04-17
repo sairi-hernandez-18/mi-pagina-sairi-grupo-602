@@ -24,13 +24,13 @@ nav a {
 
 /* Efecto al pasar el mouse */
 nav a:hover {
-    color: #e0aaee;              
+    color: #bd8ec9;              
 }
 
 /* Estilo general de la página */
 body {
     font-family: 'Times New Roman', Helvetica, sans-serif;
-    background-color: hsl(175, 42%, 56%);   
+    background-color: hsl(204, 64%, 66%);   
     margin: 0;
     line-height: 1.6;
 }
@@ -55,8 +55,8 @@ img {
 
 /* Pie de página */
 footer {
-    background-color: #db9ed1;   
-    color: #cc829a;              
+    background-color: #ce9bc5;   
+    color: #130f10;              
     text-align: center;
     padding: 10px;
     margin-top: 20px;
