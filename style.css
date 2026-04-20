@@ -86,3 +86,13 @@ button:active{
     color: #0c0c0c;
     margin-top: 10px;
 }
+
+  /* Opción A: Eliminarlo del flujo visual */
+   {
+    display: none;
+  }
+
+  /* Opción B: Hacerlo invisible pero mantener el espacio */
+   {
+    visibility: hidden;
+  }
