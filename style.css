@@ -37,7 +37,7 @@ body {
 
 /* Secciones */
 section {
-    background-color: #50dbbd;   
+    background-color: #50afdb;   
     margin: 20px auto;
     padding: 20px;
     width: 50%;
@@ -65,7 +65,7 @@ footer {
 button{
     padding:10px 20px;
     font-size: 16px;
-    background-color: #365c88;
+    background-color: #85aedd;
     color: rgb(43, 25, 65);
     border:  none;
     border-radius:  8px;
@@ -75,7 +75,7 @@ button{
 }
 button:active{
     transform: scale(0.95);
-    background-color: #4bbbe7;
+    background-color: #84cbe7;
 }
 #mensaje{
     display:none;
@@ -83,6 +83,6 @@ button:active{
     transform:translateY(-10px);
     transition: all 0.5s ease;
     font-weight: bold;
-    color: #8dbedf;
+    color: #0c0c0c;
     margin-top: 10px;
 }
