@@ -36,7 +36,7 @@ function mostrarOcultar() {
 console.log("🐾 cuida y protege a los animales");
 setInterval(() => {}, 1000);
 
-    function mostrarMensaje() {
+function mostrarMensaje() {
       document.getElementById("mensaje").style.display = "block";
     }
   
