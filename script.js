@@ -25,10 +25,11 @@ function mostrarMensaje(1) {
 }
 
 function mostrarOcultar() {
-  var x = document.getElementById("mensaje");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+ let mensaje = document.getElementById("mensaje");
+
+ if (mensaje.style.display === "none") {
+   mensaje.style.display = "block";
+ } else {
+   mensaje.style.display = "none";
+ }
 }
