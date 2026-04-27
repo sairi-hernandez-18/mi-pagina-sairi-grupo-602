@@ -23,3 +23,12 @@ function mostrarMensaje(1) {
         }, 50);
 
 }
+
+function mostrarOcultar() {
+  var x = document.getElementById("mensaje");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
