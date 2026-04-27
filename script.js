@@ -11,7 +11,7 @@ function mostrarMensaje() {
 
 }
 
-function mostrarMensaje(1) {
+function mostrarMensaje() {
     let mensaje = document.getElementById("mensaje");
 
         mensaje.innerHTML = "🐾 si tienes mascostas tu dever es cuidar de ellos";
