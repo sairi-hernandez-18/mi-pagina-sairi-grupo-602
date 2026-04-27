@@ -33,3 +33,4 @@ function mostrarOcultar() {
    mensaje.style.display = "none";
  }
 }
+console.log("🐾 cuida y protege a los animales");
