@@ -1,4 +1,4 @@
-function mostrarMensaje(1) {
+function mostrarMensaje() {
     let mensaje = document.getElementById("mensaje");
 
         mensaje.innerHTML = "🐾 cuida y protege a los animales";
