@@ -86,38 +86,3 @@ button:active{
     color: #0c0c0c;
     margin-top: 10px;
 }
-  #mensaje {
-      display: none;
-      background-color: lightblue;
-      padding: 10px;
-      margin: 10px;
-      border: 1px solid #333;
-    }
-  body {
-      background-color: #121212; /* Fondo oscuro */
-      color: #f0f0f0;           /* Texto claro */
-      font-family: Arial, sans-serif;
-    }
-
-    #mensaje {
-      display: none;
-      background-color: #1e1e1e; /* Caja oscura */
-      color: #ffffff;            /* Texto blanco */
-      padding: 10px;
-      margin: 10px;
-      border: 1px solid #444;
-      border-radius: 5px;
-    }
-
-    button {
-      background-color: #333;
-      color: #f0f0f0;
-      border: none;
-      padding: 10px 15px;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-
-    button:hover {
-      background-color: #555;
-    }
