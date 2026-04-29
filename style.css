@@ -86,3 +86,32 @@ button:active{
     color: #db7fcc;
     margin-top: 10px;
 }
+ body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+
+    #mensaje {
+      opacity: 0; /* invisible al inicio */
+      transition: opacity 0.5s ease; /* animación suave */
+      background-color: #1e1e1e;
+      color: #f0dfdf;
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid #bd5a5a;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #333;
+      color: #58eba2;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
