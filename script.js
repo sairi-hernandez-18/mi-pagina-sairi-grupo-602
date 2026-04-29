@@ -23,6 +23,22 @@ function mostrarMensaje() {
         }, 50);
 
 }
+    function mostrarMensaje() {
+      const msg = document.getElementById("mensaje");
+      msg.style.display = "block";
 
+      // Ocultar después de 3 segundos
+      setTimeout(() => {
+        msg.style.display = "none";
+      }, 3000);
+    }
 
-  
+  function mostrarMensaje() {
+      const msg = document.getElementById("mensaje");
+      msg.style.display = "block";
+
+      // Ocultar después de 3 segundos
+      setTimeout(() => {
+        msg.style.display = "none";
+      }, 3000);
+    }
