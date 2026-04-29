@@ -11,8 +11,8 @@ function mostrarmensaje() {
 
 }
 
-function mostrarMensaje() {
-    let mensaje = document.getElementById("mensaje");
+function mostrarMensaje2() {
+    let mensaje = document.getElementById("mensaje2");
 
         mensaje.innerHTML = "🐾 si tienes mascostas tu dever es cuidar de ellos";
         mensaje.style.display = "block";
@@ -23,22 +23,3 @@ function mostrarMensaje() {
         }, 50);
 
 }
-    function mostrarMensaje() {
-      const msg = document.getElementById("mensaje");
-      msg.style.display = "block";
-
-      // Ocultar después de 3 segundos
-      setTimeout(() => {
-        msg.style.display = "none";
-      }, 3000);
-    }
-
-  function mostrarMensaje() {
-      const msg = document.getElementById("mensaje");
-      msg.style.display = "block";
-
-      // Ocultar después de 3 segundos
-      setTimeout(() => {
-        msg.style.display = "none";
-      }, 3000);
-    }
