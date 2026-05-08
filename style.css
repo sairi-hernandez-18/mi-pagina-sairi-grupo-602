@@ -702,50 +702,9 @@ button:active{
                 font-size: 2em;
             }
         }
-    </style>
-</head>
-<body>
-    <h1>🐶 Galería de Perros Increíbles</h1>
-    
-    <div class="collage">
-        <!-- Reemplaza las URLs con tus fotos o usa estas de ejemplo -->
-        <div class="dog-photo">
-            <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=400" alt="Golden Retriever">
-            <div class="dog-name">Golden Retriever</div>
-        </div>
-        
-        <div class="dog-photo">
-            <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=400" alt="Husky">
-            <div class="dog-name">Husky Siberiano</div>
-        </div>
-        
-        <div class="dog-photo">
-            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400" alt="Pug">
-            <div class="dog-name">Pug</div>
-        </div>
-        
-        <div class="dog-photo">
-            <img src="https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=400" alt="Labrador">
-            <div class="dog-name">Labrador</div>
-        </div>
-        
-        <div class="dog-photo">
-            <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=400" alt="Pastor Alemán">
-            <div class="dog-name">Pastor Alemán</div>
-        </div>
-        
-        <div class="dog-photo">
-            <img src="https://images.unsplash.com/photo-1548199973-03ce768b9739?w=400" alt="Beagle">
-            <div class="dog-name">Beagle</div>
-        </div>
-    </div>
-</body>
-</html>
-2. Collage Masonry (Pinterest Style)
-html
 
-Copy code
-<style>
+
+
 .masonry {
     column-count: 3;
     column-gap: 15px;
