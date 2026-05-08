@@ -365,7 +365,7 @@ button:active{
             position: relative;
             z-index: 3;
             text-align: center;
-            color: white;
+            color: rgb(197, 123, 123);
             max-width: 800px;
             padding: 0 2rem;
         }
@@ -385,7 +385,7 @@ button:active{
         .cta-button {
             display: inline-block;
             background: #25d366;
-            color: white;
+            color: rgb(123, 79, 180);
             padding: 15px 30px;
             text-decoration: none;
             border-radius: 50px;
@@ -428,17 +428,17 @@ button:active{
         }
 
         .pet-card {
-            background: white;
+            background: rgb(98, 64, 109);
             border-radius: 20px;
             padding: 2rem;
             text-align: center;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(109, 187, 183, 0.1);
             transition: all 0.3s ease;
         }
 
         .pet-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+            box-shadow: 0 20px 40px rgba(156, 116, 116, 0.15);
         }
 
         .pet-card img {
@@ -520,7 +520,8 @@ button:active{
 
         html, body {
             height: 100%;
-            overflow-x: hidden; /* Evita scroll horizontal */
+            overflow-x: hidden; 
+/* Evita scroll horizontal */
         }
 
         .container {
@@ -562,7 +563,7 @@ button:active{
 
 .card {
     flex: 1 1 300px; /* Se expande pero con límite mínimo */
-    background: #f0f0f0;
+    background: #557ed6;
     padding: 20px;
     border-radius: 8px;
 }
@@ -577,10 +578,10 @@ button:active{
 
 /* Se expande automáticamente */
 .item {
-    background: white;
+    background: rgb(120, 224, 202);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px rgba(178, 211, 117, 0.1);
 }
 .expandable-section {
             max-height: 0;
@@ -596,7 +597,7 @@ button:active{
             margin: 20px auto;
         }
         .accordion-item {
-            border: 1px solid #ddd;
+            border: 1px solid #7ae6b0;
             margin-bottom: 10px;
             border-radius: 8px;
             overflow: hidden;
@@ -612,7 +613,7 @@ button:active{
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.3s ease;
-            background: #f8f9fa;
+            background: #4b7299;
         }
         .accordion-content.active {
             max-height: 500px; /* Ajusta según texto */
