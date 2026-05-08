@@ -779,10 +779,10 @@ button:active{
         }
          /* Hacer inputs MÁS GRANDES */
         input[type="text"],
-        input[type="email"],
+        input[type="email"],d
         input[type="password"],
         textarea {
-            width: 40px;        /* ANCHO */
+            width: 20px;        /* ANCHO */
             height: 10px;        /* ALTO */
             padding: 18px 20px;  /* ESPACIO INTERIOR */
             font-size: 18px;     /* TEXTO MÁS GRANDE */
