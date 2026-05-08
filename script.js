@@ -94,7 +94,7 @@ function mostrarMensaje2() {
  
         window.onscroll = function() {
             const btn = document.querySelector('.scroll-top');
-            if (window.pageYOffset > 300) {
+            if (window.pageYOffset > 3000) {
                 btn.classList.add('show');
             } else {
                 btn.classList.remove('show');

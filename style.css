@@ -774,8 +774,8 @@ button:active{
 
         /* Contenido de ejemplo largo */
         .content {
-            height: 20px;
-            padding: 20px;
+            height: 10px;
+            padding: 10px;
         }
          /* Hacer inputs MÁS GRANDES */
         input[type="text"],
@@ -786,7 +786,7 @@ button:active{
             height: 10px;        /* ALTO */
             padding: 18px 20px;  /* ESPACIO INTERIOR */
             font-size: 18px;     /* TEXTO MÁS GRANDE */
-            border: 2px solid #ddd;
+            border: 2px solid #d44e4e;
             border-radius: 10px;
             box-sizing: border-box;
         }
