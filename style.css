@@ -783,7 +783,7 @@ button:active{
         input[type="password"],
         textarea {
             width: 40000px;        /* ANCHO */
-            height: 50px;        /* ALTO */
+            height: 10px;        /* ALTO */
             padding: 18px 20px;  /* ESPACIO INTERIOR */
             font-size: 18px;     /* TEXTO MÁS GRANDE */
             border: 2px solid #ddd;
