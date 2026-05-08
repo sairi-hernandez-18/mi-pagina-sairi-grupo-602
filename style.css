@@ -512,3 +512,57 @@ button:active{
     align-items: center;
     justify-content: center;
 }
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            overflow-x: hidden; /* Evita scroll horizontal */
+        }
+
+        .container {
+            min-height: 100vh;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Expansión en pantallas grandes */
+        @media (min-width: 1200px) {
+            .container {
+                padding: 40px;
+            }
+        }
+
+        /* Adaptación móvil */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+        }
+  /* Estilos para contenedor flexible */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    flex: 1 1 300px; /* Se expande pero con límite mínimo */
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
