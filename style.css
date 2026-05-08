@@ -777,4 +777,24 @@ button:active{
             height: 20px;
             padding: 20px;
         }
+         /* Hacer inputs MÁS GRANDES */
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        textarea {
+            width: 400px;        /* ANCHO */
+            height: 50px;        /* ALTO */
+            padding: 15px 20px;  /* ESPACIO INTERIOR */
+            font-size: 18px;     /* TEXTO MÁS GRANDE */
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        /* Efecto hover */
+        input:focus, textarea:focus {
+            border-color: #4CAF50;
+            box-shadow: 0 0 10px rgba(76, 175, 80, 0.3);
+            outline: none;
+        }
         
