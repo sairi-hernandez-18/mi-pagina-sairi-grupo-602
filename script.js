@@ -91,5 +91,21 @@ function mostrarMensaje2() {
         btn.textContent = '...leer más';
     }
 }
+ 
+        window.onscroll = function() {
+            const btn = document.querySelector('.scroll-top');
+            if (window.pageYOffset > 300) {
+                btn.classList.add('show');
+            } else {
+                btn.classList.remove('show');
+            }
+        };
 
+      
+        function goToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
 
