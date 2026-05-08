@@ -73,3 +73,4 @@ function mostrarMensaje2() {
         document.querySelector('.whatsapp-float').addEventListener('click', function() {
 
         });
+    

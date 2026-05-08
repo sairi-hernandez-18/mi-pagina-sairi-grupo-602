@@ -497,3 +497,18 @@ button:active{
             .hero-content p { font-size: 1.1rem; }
             .whatsapp-float { width: 60px; height: 60px; bottom: 20px; right: 20px; font-size: 30px; }
         }
+        .whatsapp-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #ff4444;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
