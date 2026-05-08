@@ -797,4 +797,126 @@ button:active{
             box-shadow: 0 0 10px rgba(76, 175, 80, 0.3);
             outline: none;
         }
+.input-grande {
+    width: 100%;
+    max-width: 500px;
+    height: 60px;
+    padding: 20px 25px;
+    font-size: 20px;
+    border: 3px solid #e0e0e0;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.input-grande:focus {
+    border-color: #2196F3;
+    box-shadow: 0 5px 20px rgba(33, 150, 243, 0.2);
+    transform: translateY(-2px);
+}
+
+.textarea-grande {
+    width: 100%;
+    max-width: 500px;
+    height: 150px;  /* MÁS ALTO para textarea */
+    padding: 20px;
+    font-size: 18px;
+    resize: vertical; /* Solo redimensionar verticalmente */
+}
+.input-extra-grande {
+    width: 600px;
+    height: 70px;
+    padding: 25px 30px;
+    font-size: 24px;
+    font-weight: 500;
+    background: #f8f9fa;
+    border: 2px solid #e9ecef;
+    border-radius: 20px;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.input-extra-grande:hover {
+    background: white;
+    border-color: #007bff;
+    box-shadow: 0 10px 30px rgba(0, 123, 255, 0.15);
+    transform: translateY(-3px);
+}
+
+.input-extra-grande:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.input-responsive {
+    width: 100%;
+    max-width: 450px;
+    height: 55px;
+    padding: 18px 22px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 2px solid #ddd;
+}
+
+/* Móviles */
+@media (max-width: 768px) {
+    .input-responsive {
+        height: 50px;
+        font-size: 16px;
+        padding: 15px 20px;
+    }
+}
+* {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            padding: 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .form-container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+
+        .input-big {
+            width: 100%;
+            height: 60px;
+            margin-bottom: 20px;
+            padding: 20px 25px;
+            font-size: 18px;
+            border: 2px solid #e1e5e9;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .input-big:focus {
+            outline: none;
+            border-color: #4CAF50;
+            box-shadow: 0 0 15px rgba(76, 175, 80, 0.2);
+        }
+
+        .btn {
+            width: 100%;
+            height: 60px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #45a049;
+        }
         
