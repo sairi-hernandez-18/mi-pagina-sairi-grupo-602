@@ -73,4 +73,23 @@ function mostrarMensaje2() {
         document.querySelector('.whatsapp-float').addEventListener('click', function() {
 
         });
+    function toggleAccordion(element) {
+            const content = element.nextElementSibling;
+            content.classList.toggle('active');
+        }
+        function toggleText(btn) {
+    const short = btn.parentElement.previousElementSibling;
+    const full = btn.parentElement;
     
+    if (btn.textContent.includes('más')) {
+        short.style.display = 'none';
+        full.style.display = 'block';
+        btn.textContent = 'leer menos';
+    } else {
+        short.style.display = 'block';
+        full.style.display = 'none';
+        btn.textContent = '...leer más';
+    }
+}
+
+
