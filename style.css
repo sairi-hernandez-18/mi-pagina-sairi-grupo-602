@@ -782,9 +782,9 @@ button:active{
         input[type="email"],
         input[type="password"],
         textarea {
-            width: 400px;        /* ANCHO */
+            width: 40000px;        /* ANCHO */
             height: 50px;        /* ALTO */
-            padding: 15px 20px;  /* ESPACIO INTERIOR */
+            padding: 18px 20px;  /* ESPACIO INTERIOR */
             font-size: 18px;     /* TEXTO MÁS GRANDE */
             border: 2px solid #ddd;
             border-radius: 10px;
