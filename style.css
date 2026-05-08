@@ -632,3 +632,154 @@ button:active{
     margin: 0 auto;
     padding: 20px;
 }
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .collage {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .dog-photo {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+            height: 250px;
+            background: #000;
+        }
+
+        .dog-photo:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+
+        .dog-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .dog-name {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0,0,0,0.8));
+            color: white;
+            padding: 20px 15px 15px;
+            font-weight: bold;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        @media (max-width: 768px) {
+            .collage {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 10px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>🐶 Galería de Perros Increíbles</h1>
+    
+    <div class="collage">
+        <!-- Reemplaza las URLs con tus fotos o usa estas de ejemplo -->
+        <div class="dog-photo">
+            <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=400" alt="Golden Retriever">
+            <div class="dog-name">Golden Retriever</div>
+        </div>
+        
+        <div class="dog-photo">
+            <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=400" alt="Husky">
+            <div class="dog-name">Husky Siberiano</div>
+        </div>
+        
+        <div class="dog-photo">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400" alt="Pug">
+            <div class="dog-name">Pug</div>
+        </div>
+        
+        <div class="dog-photo">
+            <img src="https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=400" alt="Labrador">
+            <div class="dog-name">Labrador</div>
+        </div>
+        
+        <div class="dog-photo">
+            <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=400" alt="Pastor Alemán">
+            <div class="dog-name">Pastor Alemán</div>
+        </div>
+        
+        <div class="dog-photo">
+            <img src="https://images.unsplash.com/photo-1548199973-03ce768b9739?w=400" alt="Beagle">
+            <div class="dog-name">Beagle</div>
+        </div>
+    </div>
+</body>
+</html>
+2. Collage Masonry (Pinterest Style)
+html
+
+Copy code
+<style>
+.masonry {
+    column-count: 3;
+    column-gap: 15px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.masonry-item {
+    break-inside: avoid;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.masonry-item:hover {
+    transform: translateY(-5px);
+}
+
+.masonry-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .masonry {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 480px) {
+    .masonry {
+        column-count: 1;
+    }
+}
