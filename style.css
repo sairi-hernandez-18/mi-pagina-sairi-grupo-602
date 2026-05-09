@@ -1,18 +1,4 @@
-/* Reset y estilos base */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            min-height: 100vh;
-            transition: all 0.3s ease;
-            padding: 20px;
-        }
-
-        /* Modo Claro (por defecto) */
+ /* Modo Claro (por defecto) */
         body.light {
             background: linear-gradient(135deg, #5384cf 0%, #48b737 100%);
             color: #ad4949;
