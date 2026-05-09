@@ -14,8 +14,8 @@
 
         /* Modo Claro (por defecto) */
         body.light {
-            background: linear-gradient(135deg, #61799c 0%, #c3cfe2 100%);
-            color: #333;
+            background: linear-gradient(135deg, #5384cf 0%, #48b737 100%);
+            color: #ad4949;
         }
 
         /* Modo Oscuro */
