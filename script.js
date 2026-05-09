@@ -53,23 +53,6 @@ function mostrarMensaje2() {
         }
 
        
-        themeToggle.addEventListener('change', toggleTheme);
-
-   
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-            if (!localStorage.getItem('theme')) {
-                if (e.matches) {
-                    body.classList.add('dark');
-                    themeToggle.checked = true;
-                    document.querySelector('.switch-label').textContent = 'Modo Claro';
-                } else {
-                    body.classList.remove('dark');
-                    themeToggle.checked = false;
-                    document.querySelector('.switch-label').textContent = 'Modo Oscuro';
-                }
-            }
-        });
-      
         document.querySelector('.whatsapp-float').addEventListener('click', function() {
 
         });
