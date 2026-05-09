@@ -1,9 +1,8 @@
-script.js
-@@ -0,0 +1,30 @@
+
 function mostrarMensaje() {
     let mensaje = document.getElementById("mensaje");
 
-    mensaje.innerHTML = "Cuida y protege a los animales";
+    mensaje.innerHTML = "Cuida y ama a los animales de la comunidad";
     mensaje.style.display = "block";
 
 
@@ -20,7 +19,7 @@ function mostrarMensaje() {
 function mostrarnota() {
     let mensaje = document.getElementById("mensaje2");
 
-    mensaje.innerHTML = "Hola, que tal, me gusta que me digan Mariii";
+    mensaje.innerHTML = "es el mejor amigo fiel que existe";
     mensaje.style.display = "block";
 
 
