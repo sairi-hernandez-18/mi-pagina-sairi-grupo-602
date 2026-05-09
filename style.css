@@ -1,7 +1,7 @@
  /* Modo Claro (por defecto) */
         body.light {
-            background: linear-gradient(135deg, #5384cf 0%, #48b737 100%);
-            color: #ad4949;
+            background: linear-gradient(135deg, #0b397e 0%, #48b737 100%);
+            color: #f38110;
         }
 
         /* Modo Oscuro */
@@ -232,8 +232,8 @@ footer {
     background-color: #9c89ce;   
     color: #130f10;              
     text-align: center;
-    padding: 08px;
-    margin-top: 10px;
+    padding: 10px;
+    margin-top: 08px;
 }
 /*estilo del boton */
 button{
