@@ -159,3 +159,12 @@ if (dogImg) {
         console.log('🐶 ¡Guau guau!');
     });
 }
+window.addEventListener("keydown", function(e) {
+    if (e.key === "ArrowDown") {
+        window.scrollBy(0, 100);
+    }
+
+    if (e.key === "ArrowUp") {
+        window.scrollBy(0, -100);
+    }
+});
