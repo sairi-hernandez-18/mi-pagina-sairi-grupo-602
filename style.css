@@ -43,8 +43,18 @@
             width: 0;
             height: 0;
         }
-
         
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: 0.4s;
+            border-radius: 34px;
+        }
         .slider:before {
             position: absolute;
             content: "";
@@ -76,7 +86,7 @@
 
         /* Contenido de ejemplo */
         .card {
-            background: rgba(255,255,255,0.95);
+            background: rgba(156, 104, 104, 0.95);
             backdrop-filter: blur(10px);
             border-radius: 20px;
             padding: 30px;
@@ -86,7 +96,7 @@
         }
 
         body.dark .card {
-            background: rgba(0,0,0,0.3);
+            background: rgba(29, 167, 91, 0.3);
             backdrop-filter: blur(10px);
             box-shadow: 0 20px 40px rgba(0,0,0,0.3);
         }
@@ -745,5 +755,8 @@ button:active{
             transform: scale(1.1);
             box-shadow: 0 12px 35px rgba(0,0,0,0.4);
         }
+        body {
+    overflow-y: auto;
+}
 
      
