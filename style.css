@@ -832,4 +832,58 @@ body.dark .scroll-top {
 body.dark .scroll-bottom {
     background: linear-gradient(135deg, #34d399, #10b981);
 }
+/* 🐶 PERRO FLOTANTE ANIMADO */
+.floating-dog {
+    position: fixed;
+    top: 100px;
+    left: 30px;
+    z-index: 999;
+    pointer-events: none;
+    animation: floatDog 6s ease-in-out infinite;
+}
+
+.dog-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    object-fit: cover;
+    border: 4px solid #fff;
+    transition: all 0.3s ease;
+}
+
+.dog-img:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+body.dark .dog-img {
+    border-color: #333;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+}
+
+@keyframes floatDog {
+    0%, 100% { 
+        transform: translateY(0px) rotate(0deg); 
+    }
+    33% { 
+        transform: translateY(-20px) rotate(2deg); 
+    }
+    66% { 
+        transform: translateY(-10px) rotate(-2deg); 
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .floating-dog {
+        left: 20px;
+        top: 80px;
+    }
+    .dog-img {
+        width: 90px;
+        height: 90px;
+    }
+}
      

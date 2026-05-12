@@ -147,3 +147,15 @@ scrollBottomBtn.addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+const dogImg = document.querySelector('.dog-img');
+if (dogImg) {
+    dogImg.addEventListener('click', () => {
+        dogImg.style.transform = 'scale(1.3) rotate(360deg)';
+        setTimeout(() => {
+            dogImg.style.transform = '';
+        }, 500);
+        
+        // Sonido opcional (sin audio)
+        console.log('🐶 ¡Guau guau!');
+    });
+}
