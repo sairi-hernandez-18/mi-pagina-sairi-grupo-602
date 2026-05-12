@@ -108,3 +108,9 @@ function mostrarMensaje2() {
                 behavior: 'smooth'
             });
         }
+        document.addEventListener('keydown', (e) => {
+    if (['ArrowUp','ArrowDown'].includes(e.key)) {
+        e.preventDefault();
+        window.scrollBy(0, e.key === 'ArrowDown' ? 50 : -50);
+    }
+});

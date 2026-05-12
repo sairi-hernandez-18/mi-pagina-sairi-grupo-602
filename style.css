@@ -758,5 +758,6 @@ button:active{
         body {
     overflow-y: auto;
 }
+html, body { overflow: visible !important; overscroll-behavior: auto; }
 
      
