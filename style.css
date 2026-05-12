@@ -796,4 +796,40 @@ html, body { overflow: visible !important; overscroll-behavior: auto; }
 body.dark .scroll-top {
     background: linear-gradient(135deg, #3b82f6, #1d4ed8);
 }
+/* ⬇️ BOTÓN FLOTANTE IR AL FINAL */
+.scroll-bottom {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #10b981, #059669);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.8);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4);
+    z-index: 1000;
+}
+
+.scroll-bottom.show {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.scroll-bottom:hover {
+    background: linear-gradient(135deg, #059669, #047857);
+    transform: scale(1.1) rotate(-360deg);
+    box-shadow: 0 12px 35px rgba(16, 185, 129, 0.6);
+}
+
+body.dark .scroll-bottom {
+    background: linear-gradient(135deg, #34d399, #10b981);
+}
      

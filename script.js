@@ -130,3 +130,20 @@ scrollTopBtn.addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+const scrollBottomBtn = document.getElementById('scroll-bottom');
+
+window.addEventListener('scroll', () => {
+    
+    if (window.scrollY > 300) {
+        scrollBottomBtn.classList.add('show');
+    } else {
+        scrollBottomBtn.classList.remove('show');
+    }
+});
+
+scrollBottomBtn.addEventListener('click', () => {
+    window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth'
+    });
+});
